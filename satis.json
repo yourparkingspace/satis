@@ -1,5 +1,5 @@
 {
-  "name": "Your Parking Space",
+  "name": "YourParkingSpace",
   "homepage": "https://packages.yourparkingspace.co.uk",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/yourparkingspace/microservice-support-php" }
