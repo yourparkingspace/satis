@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "yourparkingspace/microservice-support": {
+            "dev-master": {
+                "name": "yourparkingspace/microservice-support",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/microservice-support-php.git",
+                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/85355b7819e31777746e1dde6a59e68891292dc9",
+                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.2",
+                    "netsells/logger-php": "^1.2",
+                    "sentry/sentry-laravel": "^2.3"
+                },
+                "time": "2021-02-05T21:35:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceSupport\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam@yourparkingspace.co.uk"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/master",
+                    "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
+                }
+            }
+        }
+    }
+}
