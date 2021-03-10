@@ -2,7 +2,8 @@
   "name": "YourParkingSpace",
   "homepage": "https://packages.yourparkingspace.co.uk",
   "repositories": [
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/microservice-support-php" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/microservice-support-php" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/cranium-php" }
   ],
   "require-all": true
 }
