@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$a129fa69f93722b29cb8a905413c915a87723803.json": {
+            "sha1": "a129fa69f93722b29cb8a905413c915a87723803"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "yourparkingspace/microservice-support"
+    ]
+}
