@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "yourparkingspace/cranium-php": [
+            {
+                "name": "yourparkingspace/cranium-php",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/cranium-php.git",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/cranium-php/zipball/949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": ">= 6.0",
+                    "illuminate/support": ">= 6.0",
+                    "psr/log": "^1.1",
+                    "ramsey/uuid": ">= 3.0"
+                },
+                "time": "2021-02-22T15:55:29+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\Cranium\\CraniumServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\Cranium\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam@yourparkingspace.co.uk"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/cranium-php/tree/main",
+                    "issues": "https://github.com/yourparkingspace/cranium-php/issues"
+                }
+            }
+        ]
+    }
+}

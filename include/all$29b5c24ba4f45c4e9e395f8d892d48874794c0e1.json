@@ -1,0 +1,92 @@
+{
+    "packages": {
+        "yourparkingspace/cranium-php": {
+            "dev-main": {
+                "name": "yourparkingspace/cranium-php",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/cranium-php.git",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/cranium-php/zipball/949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": ">= 6.0",
+                    "illuminate/support": ">= 6.0",
+                    "psr/log": "^1.1",
+                    "ramsey/uuid": ">= 3.0"
+                },
+                "time": "2021-02-22T15:55:29+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\Cranium\\CraniumServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\Cranium\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam@yourparkingspace.co.uk"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/cranium-php/tree/main",
+                    "issues": "https://github.com/yourparkingspace/cranium-php/issues"
+                }
+            }
+        },
+        "yourparkingspace/microservice-support": {
+            "dev-master": {
+                "name": "yourparkingspace/microservice-support",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/microservice-support-php.git",
+                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/85355b7819e31777746e1dde6a59e68891292dc9",
+                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.2",
+                    "netsells/logger-php": "^1.2",
+                    "sentry/sentry-laravel": "^2.3"
+                },
+                "time": "2021-02-05T21:35:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceSupport\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam@yourparkingspace.co.uk"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/master",
+                    "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
+                }
+            }
+        }
+    }
+}
