@@ -56,12 +56,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9"
+                    "reference": "54eb424a4730a812cc62ab2d68d57284bcf83014"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/85355b7819e31777746e1dde6a59e68891292dc9",
-                    "reference": "85355b7819e31777746e1dde6a59e68891292dc9",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/54eb424a4730a812cc62ab2d68d57284bcf83014",
+                    "reference": "54eb424a4730a812cc62ab2d68d57284bcf83014",
                     "shasum": ""
                 },
                 "require": {
@@ -69,7 +69,7 @@
                     "netsells/logger-php": "^1.2",
                     "sentry/sentry-laravel": "^2.3"
                 },
-                "time": "2021-02-05T21:35:24+00:00",
+                "time": "2021-03-11T16:13:56+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -80,6 +80,10 @@
                     {
                         "name": "Sam Jordan",
                         "email": "sam@yourparkingspace.co.uk"
+                    },
+                    {
+                        "name": "Craig Sansam",
+                        "email": "craig@yourparkingspace.co.uk"
                     }
                 ],
                 "support": {
