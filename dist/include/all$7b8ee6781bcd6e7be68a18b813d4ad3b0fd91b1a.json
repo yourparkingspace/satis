@@ -1,7 +1,116 @@
 {
     "packages": {
-        "yourparkingspace/microservice-support": [
-            {
+        "yourparkingspace/cranium-php": {
+            "dev-main": {
+                "name": "yourparkingspace/cranium-php",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/cranium-php.git",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/cranium-php/zipball/949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "reference": "949f8e735b7a0356464ef3481fe7728e46d2ae8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": ">= 6.0",
+                    "illuminate/support": ">= 6.0",
+                    "psr/log": "^1.1",
+                    "ramsey/uuid": ">= 3.0"
+                },
+                "time": "2021-02-22T15:55:29+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\Cranium\\CraniumServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\Cranium\\": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam@yourparkingspace.co.uk"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/cranium-php/tree/main",
+                    "issues": "https://github.com/yourparkingspace/cranium-php/issues"
+                }
+            }
+        },
+        "yourparkingspace/microservice-connect": {
+            "dev-main": {
+                "name": "yourparkingspace/microservice-connect",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/microservice-connect-php.git",
+                    "reference": "080ed598b625fdcd7e31a10e23583eb976798cbc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/080ed598b625fdcd7e31a10e23583eb976798cbc",
+                    "reference": "080ed598b625fdcd7e31a10e23583eb976798cbc",
+                    "shasum": ""
+                },
+                "require": {
+                    "ackintosh/ganesha": "^1.2",
+                    "guzzlehttp/guzzle": "^6.2",
+                    "illuminate/support": "~6",
+                    "php": "7.3.*"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "~4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-04-13T14:09:07+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\MicroserviceConnect\\MicroserviceConnectServiceProvider"
+                        ],
+                        "aliases": {
+                            "MicroserviceConnect": "Microservice"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\Tests\\": "tests"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Ben Askew",
+                        "email": "ben.askew@yourparkingspace.co.uk"
+                    }
+                ],
+                "description": "Provides interface to connect to any microservice",
+                "support": {
+                    "source": "https://github.com/yourparkingspace/microservice-connect-php/tree/main",
+                    "issues": "https://github.com/yourparkingspace/microservice-connect-php/issues"
+                }
+            }
+        },
+        "yourparkingspace/microservice-support": {
+            "dev-master": {
                 "name": "yourparkingspace/microservice-support",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
@@ -45,7 +154,7 @@
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
-            {
+            "dev-league-fractal": {
                 "name": "yourparkingspace/microservice-support",
                 "version": "dev-league-fractal",
                 "version_normalized": "dev-league-fractal",
@@ -89,7 +198,7 @@
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
-            {
+            "dev-league-fractal-fresh": {
                 "name": "yourparkingspace/microservice-support",
                 "version": "dev-league-fractal-fresh",
                 "version_normalized": "dev-league-fractal-fresh",
@@ -133,6 +242,6 @@
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             }
-        ]
+        }
     }
 }
