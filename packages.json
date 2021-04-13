@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$92412fb042bc9cafbdc52144fb8b5b8178650933.json": {
-            "sha1": "92412fb042bc9cafbdc52144fb8b5b8178650933"
+        "include/all$7b8ee6781bcd6e7be68a18b813d4ad3b0fd91b1a.json": {
+            "sha1": "7b8ee6781bcd6e7be68a18b813d4ad3b0fd91b1a"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "yourparkingspace/cranium-php",
+        "yourparkingspace/microservice-connect",
         "yourparkingspace/microservice-support"
     ]
 }
