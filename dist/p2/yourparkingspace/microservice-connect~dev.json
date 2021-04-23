@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-connect-php.git",
-                    "reference": "51896525496681c207a3277b0cf7a93b88e14eb7"
+                    "reference": "46a1336c4c3f76ec098912de4550b48479fd99f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/51896525496681c207a3277b0cf7a93b88e14eb7",
-                    "reference": "51896525496681c207a3277b0cf7a93b88e14eb7",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/46a1336c4c3f76ec098912de4550b48479fd99f9",
+                    "reference": "46a1336c4c3f76ec098912de4550b48479fd99f9",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "~4",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-04-14T10:25:27+00:00",
+                "time": "2021-04-23T10:24:58+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
