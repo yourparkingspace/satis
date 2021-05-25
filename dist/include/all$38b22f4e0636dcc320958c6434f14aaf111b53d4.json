@@ -117,12 +117,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "394a6784fea5bd792fe62d917d33bde8be815b60"
+                    "reference": "e01603d838e04a8098d822d55277aa8e983fff6f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/394a6784fea5bd792fe62d917d33bde8be815b60",
-                    "reference": "394a6784fea5bd792fe62d917d33bde8be815b60",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/e01603d838e04a8098d822d55277aa8e983fff6f",
+                    "reference": "e01603d838e04a8098d822d55277aa8e983fff6f",
                     "shasum": ""
                 },
                 "require": {
@@ -132,7 +132,7 @@
                     "netsells/logger-php": "^1.2",
                     "sentry/sentry-laravel": "^2.3"
                 },
-                "time": "2021-03-25T09:41:15+00:00",
+                "time": "2021-05-24T18:59:29+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
