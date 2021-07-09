@@ -23,6 +23,7 @@
                     "ramsey/uuid": ">= 3.0"
                 },
                 "time": "2021-02-22T15:55:29+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "laravel": {

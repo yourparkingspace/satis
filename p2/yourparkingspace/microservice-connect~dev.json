@@ -27,6 +27,7 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "time": "2021-04-23T10:24:58+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "laravel": {
