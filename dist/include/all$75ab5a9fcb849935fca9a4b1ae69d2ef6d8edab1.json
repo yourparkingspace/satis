@@ -50,6 +50,65 @@
             }
         },
         "yourparkingspace/microservice-connect": {
+            "0.2": {
+                "name": "yourparkingspace/microservice-connect",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/microservice-connect-php.git",
+                    "reference": "1214f4b9812cb291f1a6b7a97b54fced081d0521"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/1214f4b9812cb291f1a6b7a97b54fced081d0521",
+                    "reference": "1214f4b9812cb291f1a6b7a97b54fced081d0521",
+                    "shasum": ""
+                },
+                "require": {
+                    "ackintosh/ganesha": "^1.2",
+                    "guzzlehttp/guzzle": "^6.2",
+                    "illuminate/support": "~6",
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "~4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-07-09T14:02:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\MicroserviceConnect\\MicroserviceConnectServiceProvider"
+                        ],
+                        "aliases": {
+                            "MicroserviceConnect": "Microservice"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\Tests\\": "tests/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Ben Askew",
+                        "email": "ben.askew@yourparkingspace.co.uk"
+                    }
+                ],
+                "description": "Provides interface to connect to any microservice",
+                "support": {
+                    "source": "https://github.com/yourparkingspace/microservice-connect-php/tree/0.2",
+                    "issues": "https://github.com/yourparkingspace/microservice-connect-php/issues"
+                }
+            },
             "dev-main": {
                 "name": "yourparkingspace/microservice-connect",
                 "version": "dev-main",
@@ -57,25 +116,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-connect-php.git",
-                    "reference": "46a1336c4c3f76ec098912de4550b48479fd99f9"
+                    "reference": "1214f4b9812cb291f1a6b7a97b54fced081d0521"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/46a1336c4c3f76ec098912de4550b48479fd99f9",
-                    "reference": "46a1336c4c3f76ec098912de4550b48479fd99f9",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/1214f4b9812cb291f1a6b7a97b54fced081d0521",
+                    "reference": "1214f4b9812cb291f1a6b7a97b54fced081d0521",
                     "shasum": ""
                 },
                 "require": {
                     "ackintosh/ganesha": "^1.2",
                     "guzzlehttp/guzzle": "^6.2",
                     "illuminate/support": "~6",
-                    "php": "7.3.*"
+                    "php": ">=7.3"
                 },
                 "require-dev": {
                     "orchestra/testbench": "~4",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-04-23T10:24:58+00:00",
+                "time": "2021-07-09T14:02:09+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -106,7 +165,66 @@
                 ],
                 "description": "Provides interface to connect to any microservice",
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-connect-php/tree/main",
+                    "source": "https://github.com/yourparkingspace/microservice-connect-php/tree/0.2",
+                    "issues": "https://github.com/yourparkingspace/microservice-connect-php/issues"
+                }
+            },
+            "dev-task/B2-194": {
+                "name": "yourparkingspace/microservice-connect",
+                "version": "dev-task/B2-194",
+                "version_normalized": "dev-task/B2-194",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:yourparkingspace/microservice-connect-php.git",
+                    "reference": "34b85c27af9ac20cda2dfec3da6d9d643c0b4b7e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-connect-php/zipball/34b85c27af9ac20cda2dfec3da6d9d643c0b4b7e",
+                    "reference": "34b85c27af9ac20cda2dfec3da6d9d643c0b4b7e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ackintosh/ganesha": "^1.2",
+                    "guzzlehttp/guzzle": "^6.2",
+                    "illuminate/support": "~6",
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "~4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-07-09T13:54:12+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "YourParkingSpace\\MicroserviceConnect\\MicroserviceConnectServiceProvider"
+                        ],
+                        "aliases": {
+                            "MicroserviceConnect": "Microservice"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "YourParkingSpace\\MicroserviceConnect\\Tests\\": "tests/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Ben Askew",
+                        "email": "ben.askew@yourparkingspace.co.uk"
+                    }
+                ],
+                "description": "Provides interface to connect to any microservice",
+                "support": {
+                    "source": "https://github.com/yourparkingspace/microservice-connect-php/tree/task/B2-194",
                     "issues": "https://github.com/yourparkingspace/microservice-connect-php/issues"
                 }
             }
