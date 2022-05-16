@@ -1307,12 +1307,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "49c49bd74ed66c40c8c48b1b234cb6b7dc562a47"
+                    "reference": "849bdb0fa51eeacc23f0a40223843e61c55886fe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/49c49bd74ed66c40c8c48b1b234cb6b7dc562a47",
-                    "reference": "49c49bd74ed66c40c8c48b1b234cb6b7dc562a47",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/849bdb0fa51eeacc23f0a40223843e61c55886fe",
+                    "reference": "849bdb0fa51eeacc23f0a40223843e61c55886fe",
                     "shasum": ""
                 },
                 "require": {
@@ -1333,7 +1333,7 @@
                     "phpro/grumphp": "^1.4",
                     "phpstan/phpstan": "^0.12.92"
                 },
-                "time": "2022-05-16T12:03:01+00:00",
+                "time": "2022-05-16T12:54:12+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1371,7 +1371,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.5.0-dev",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.5.0-dev-2",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
