@@ -1536,12 +1536,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "ba87928d951c92d2223376152383edc59f67e074"
+                    "reference": "c65bcbdfce5508ed6c000acf339f79509f50dd8a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/ba87928d951c92d2223376152383edc59f67e074",
-                    "reference": "ba87928d951c92d2223376152383edc59f67e074",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/c65bcbdfce5508ed6c000acf339f79509f50dd8a",
+                    "reference": "c65bcbdfce5508ed6c000acf339f79509f50dd8a",
                     "shasum": ""
                 },
                 "require": {
@@ -1562,12 +1562,11 @@
                     "phpro/grumphp": "^1.4",
                     "phpstan/phpstan": "^0.12.92"
                 },
-                "time": "2022-06-24T13:06:59+00:00",
+                "time": "2022-06-24T14:29:38+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "YourParkingSpace\\MicroserviceSupport\\ModelEventServiceProvider",
                             "YourParkingSpace\\MicroserviceSupport\\SupportServiceProvider",
                             "YourParkingSpace\\MicroserviceSupport\\PubSub\\PubSubEventServiceProvider"
                         ]
@@ -1601,7 +1600,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.8.0-dev-1",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.8.0-dev-2",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             }
