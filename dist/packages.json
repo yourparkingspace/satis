@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$f48d3c17f55f59c4324ed0d75a0b3f1c4dc2123e.json": {
-            "sha1": "f48d3c17f55f59c4324ed0d75a0b3f1c4dc2123e"
+        "include/all$229931e0335f2df8d449839c65ac000cca58e3e5.json": {
+            "sha1": "229931e0335f2df8d449839c65ac000cca58e3e5"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
+        "yourparkingspace/code-standards-laravel",
         "yourparkingspace/cranium-php",
         "yourparkingspace/microservice-connect",
         "yourparkingspace/microservice-support"

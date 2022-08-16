@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "yourparkingspace/code-standards-laravel": [
+            {
+                "name": "yourparkingspace/code-standards-laravel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yourparkingspace/code-standards-laravel.git",
+                    "reference": "8f53deb4c9521401a05adcbd98a896fabfb9673d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yourparkingspace/code-standards-laravel/zipball/8f53deb4c9521401a05adcbd98a896fabfb9673d",
+                    "reference": "8f53deb4c9521401a05adcbd98a896fabfb9673d",
+                    "shasum": ""
+                },
+                "require": {
+                    "friendsofphp/php-cs-fixer": "^3.6",
+                    "nunomaduro/larastan": "^2.0",
+                    "php": "^8.1",
+                    "symfony/filesystem": "^6.0"
+                },
+                "time": "2022-08-16T11:41:23+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "YourParkingSpace\\CodeStandards\\Laravel\\Core\\": "core/src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Jakub Gawron",
+                        "email": "jakub.gawron@netsells.co.uk"
+                    },
+                    {
+                        "name": "Sam Jordan",
+                        "email": "sam.jordan@netsells.co.uk"
+                    }
+                ],
+                "description": "YourParkingSpace package providing pre-configured quality tools for our Laravel projects.",
+                "keywords": [
+                    "laravel",
+                    "quality tools"
+                ],
+                "support": {
+                    "source": "https://github.com/yourparkingspace/code-standards-laravel/tree/main"
+                }
+            }
+        ]
+    }
+}
