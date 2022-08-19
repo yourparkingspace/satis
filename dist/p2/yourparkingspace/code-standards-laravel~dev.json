@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/yourparkingspace/code-standards-laravel.git",
-                    "reference": "14f3f9b804987e2e51cfb1b00a371a75ba096d53"
+                    "reference": "51805e53aa550417435ea23d0079fa4a98e44b9e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/code-standards-laravel/zipball/14f3f9b804987e2e51cfb1b00a371a75ba096d53",
-                    "reference": "14f3f9b804987e2e51cfb1b00a371a75ba096d53",
+                    "url": "https://api.github.com/repos/yourparkingspace/code-standards-laravel/zipball/51805e53aa550417435ea23d0079fa4a98e44b9e",
+                    "reference": "51805e53aa550417435ea23d0079fa4a98e44b9e",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "php": "^8.1",
                     "symfony/filesystem": "^6.0"
                 },
-                "time": "2022-08-19T13:20:00+00:00",
+                "time": "2022-08-19T14:24:00+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -41,6 +41,10 @@
                     {
                         "name": "Sam Jordan",
                         "email": "sam.jordan@netsells.co.uk"
+                    },
+                    {
+                        "name": "Ben Askew",
+                        "email": "ben.askew@yourparkingspace.co.uk"
                     }
                 ],
                 "description": "YourParkingSpace package providing pre-configured quality tools for our Laravel projects.",
