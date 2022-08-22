@@ -53,7 +53,7 @@
                     "quality tools"
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/code-standards-laravel/tree/main"
+                    "source": "https://github.com/yourparkingspace/code-standards-laravel/tree/1.0.0"
                 }
             }
         ]
