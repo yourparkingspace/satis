@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/yourparkingspace/code-standards-laravel.git",
-                    "reference": "797cf21f8cb8d5aa6d66cf628463a50928496fad"
+                    "reference": "f346062569c88685996b962d4e2a51ccc4f3f9b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/code-standards-laravel/zipball/797cf21f8cb8d5aa6d66cf628463a50928496fad",
-                    "reference": "797cf21f8cb8d5aa6d66cf628463a50928496fad",
+                    "url": "https://api.github.com/repos/yourparkingspace/code-standards-laravel/zipball/f346062569c88685996b962d4e2a51ccc4f3f9b9",
+                    "reference": "f346062569c88685996b962d4e2a51ccc4f3f9b9",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "php": "^8.1",
                     "symfony/filesystem": "^6.0"
                 },
-                "time": "2022-08-22T08:09:43+00:00",
+                "time": "2022-08-22T08:16:31+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -53,7 +53,7 @@
                     "quality tools"
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/code-standards-laravel/tree/1.0.1"
+                    "source": "https://github.com/yourparkingspace/code-standards-laravel/tree/1.0.2"
                 }
             }
         ]
