@@ -200,12 +200,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "c2684e2ffb3db3fdfaab961bd30173eb9d35eff8"
+                    "reference": "765969e550cccbe560a41d23759b19eb49add371"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/c2684e2ffb3db3fdfaab961bd30173eb9d35eff8",
-                    "reference": "c2684e2ffb3db3fdfaab961bd30173eb9d35eff8",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/765969e550cccbe560a41d23759b19eb49add371",
+                    "reference": "765969e550cccbe560a41d23759b19eb49add371",
                     "shasum": ""
                 },
                 "require": {
@@ -226,7 +226,7 @@
                     "phpro/grumphp": "^1.4",
                     "phpstan/phpstan": "^0.12.92"
                 },
-                "time": "2022-08-16T08:36:17+00:00",
+                "time": "2022-08-29T10:03:14+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
