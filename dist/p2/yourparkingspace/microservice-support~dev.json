@@ -263,7 +263,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.10.2-dev",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/4.10.1-dev",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
