@@ -38,9 +38,9 @@
             'dev_requirement' => true,
         ),
         'composer/composer' => array(
-            'pretty_version' => '2.4.2',
-            'version' => '2.4.2.0',
-            'reference' => '7d887621e69a0311eb50aed4a16f7044b2b385b9',
+            'pretty_version' => '2.4.4',
+            'version' => '2.4.4.0',
+            'reference' => 'e8d9087229bcdbc5867594d3098091412f1130cf',
             'type' => 'library',
             'install_path' => __DIR__ . '/./composer',
             'aliases' => array(),
