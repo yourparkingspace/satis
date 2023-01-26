@@ -272,12 +272,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:yourparkingspace/microservice-support-php.git",
-                    "reference": "95afb2d52f1796163a62e8f065caa0ead25b58b6"
+                    "reference": "04227d7a64e8de345d936cfe3d68ba0d7ac5f13f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/95afb2d52f1796163a62e8f065caa0ead25b58b6",
-                    "reference": "95afb2d52f1796163a62e8f065caa0ead25b58b6",
+                    "url": "https://api.github.com/repos/yourparkingspace/microservice-support-php/zipball/04227d7a64e8de345d936cfe3d68ba0d7ac5f13f",
+                    "reference": "04227d7a64e8de345d936cfe3d68ba0d7ac5f13f",
                     "shasum": ""
                 },
                 "require": {
@@ -295,7 +295,7 @@
                 "require-dev": {
                     "orchestra/testbench": "^7.3"
                 },
-                "time": "2023-01-25T13:54:13+00:00",
+                "time": "2023-01-26T11:45:04+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -333,7 +333,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/5.2.0",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/5.2.1",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
