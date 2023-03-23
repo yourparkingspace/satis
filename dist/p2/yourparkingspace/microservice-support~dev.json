@@ -405,7 +405,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/master",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/6.0.0",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             },
@@ -478,7 +478,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/master",
+                    "source": "https://github.com/yourparkingspace/microservice-support-php/tree/6.0.0",
                     "issues": "https://github.com/yourparkingspace/microservice-support-php/issues"
                 }
             }
