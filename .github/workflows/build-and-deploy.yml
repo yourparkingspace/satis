@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${BOT_TOKEN}
+          token: ${{BOT_TOKEN}}
       - name: Install dependencies
         uses: php-actions/composer@v6
       - name: Build
