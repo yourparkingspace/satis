@@ -1,5 +1,13 @@
 {
     "require-dev": {
-        "composer/composer": "^2.4"
+        "composer/composer": "^2.3.10"
+    },
+    "require": {
+        "composer/satis": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
     }
 }

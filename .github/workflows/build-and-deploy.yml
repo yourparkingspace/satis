@@ -1,0 +1,13 @@
+name: Build and Deploy
+
+jobs:
+  build:
+    runs-on: [ubuntu-latest, x64, linux]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+      - name: Build
+        run: vendor/bin/satis build satis.json ./dist
+
