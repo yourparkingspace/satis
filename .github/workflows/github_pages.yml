@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: [ubuntu-latest, linux]
+    runs-on: [self-hosted, ubuntu-latest, x64, linux]
     environment: actions
 
     steps:
