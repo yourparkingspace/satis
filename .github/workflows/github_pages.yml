@@ -15,21 +15,27 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install dependencies
+
+      - name: Setup PHP
         uses: php-actions/composer@v6
         with:
-          php_version: "8.2"
-          version: 2.x
+          php-version: '8.2'
+          tools: composer:2.x
+
+      - name: Composer Install
+        run: composer install
+
       - name: Compile Satis pages
         run: vendor/bin/satis build satis.json ./dist
         env:
           COMPOSER_AUTH: '{"github-oauth": {"github.com": "${{ secrets.BOT_TOKEN }}"} }'
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
   publish:
-    runs-on: [ubuntu-latest]
+    runs-on: [self-hosted, ubuntu-latest, x64, linux]
     needs: build
     environment:
       name: github-pages
