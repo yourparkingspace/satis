@@ -1,6 +1,7 @@
 name: Publish to GitHub Pages
 
-on: [push, workflow_dispatch]
+on:
+  workflow_dispatch:
 
 permissions:
   packages: read
@@ -34,6 +35,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
+
   publish:
     runs-on: [self-hosted, ubuntu-latest, x64, linux]
     needs: build
@@ -44,4 +46,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-

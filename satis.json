@@ -6,7 +6,8 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/cranium-php" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/microservice-connect-php" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/code-standards-laravel" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/products-support" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/products-support" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/asset-generation-support" }
   ],
   "require-all": true
 }
