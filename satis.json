@@ -7,7 +7,13 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/microservice-connect-php" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/code-standards-laravel" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/products-support" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/asset-generation-support" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/asset-generation-support" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-google-analytics" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/eloquence-base" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-platform" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-api" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-pages-api" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/logger-php" }
   ],
   "require-all": true
 }
