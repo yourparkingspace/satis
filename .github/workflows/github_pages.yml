@@ -15,7 +15,30 @@ jobs:
     environment: actions
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Get OS
+        id: os
+        run: |
+          df -h
+          if [ -n "$(command -v apt-get)" ]; then
+              echo "os=ubuntu" >> "$GITHUB_OUTPUT"
+              echo "Using Ubuntu"
+          else
+              echo "os=linux" >> "$GITHUB_OUTPUT"
+              echo "Using Linux"
+          fi
+
+      - name: Wait for no dpkg lock
+        shell: bash
+        run: |
+          if [ "${{ steps.os.outputs.os }}" = "ubuntu" ]; then
+            # Check for dpkg lock and wait if necessary
+            while sudo fuser /var/lib/dpkg/lock-frontend >/dev/null 2>&1; do
+              echo "Waiting for other software managers to finish..."
+              sleep 5
+            done
+          fi
+
+      - uses: actions/checkout@v4
 
       - name: Setup PHP
         uses: shivammathur/setup-php@verbose
@@ -32,7 +55,7 @@ jobs:
           COMPOSER_AUTH: '{"github-oauth": {"github.com": "${{ secrets.BOT_TOKEN }}"} }'
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -45,4 +68,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
