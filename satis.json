@@ -13,7 +13,8 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-platform" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-api" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hatchly-pages-api" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/logger-php" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/logger-php" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hookable" }
   ],
   "require-all": true
 }
