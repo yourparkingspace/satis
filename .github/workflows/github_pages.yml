@@ -49,8 +49,10 @@ jobs:
       - name: Composer Install
         run: composer install
 
-      - name: Remove Composer VCS cache
-        run: rm -rf ~/.cache/composer/vcs
+      - name: Configure Git for HTTPS authentication
+        run: |
+          git config --global url."https://${{ secrets.BOT_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ secrets.BOT_TOKEN }}@github.com/".insteadOf "git@github.com:"
 
       - name: Compile Satis pages
         run: vendor/bin/satis build satis.json ./dist
