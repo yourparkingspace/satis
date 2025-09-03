@@ -17,7 +17,8 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hookable" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/getaddress.git" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-rollout.git" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-resourceful.git" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-resourceful.git" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/hash-model-ids.git" }
   ],
   "require-all": true
 }
