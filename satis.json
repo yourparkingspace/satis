@@ -19,7 +19,8 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-rollout.git" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-resourceful.git" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hash-model-ids.git" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-mutex-migrations.git" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-mutex-migrations.git" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/streaming-json-encoder" }
   ],
   "require-all": true
 }
