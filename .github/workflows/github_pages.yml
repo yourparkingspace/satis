@@ -15,6 +15,11 @@ jobs:
     environment: actions
 
     steps:
+      - name: Isolate git and composer config to this job
+        run: |
+          echo "GIT_CONFIG_GLOBAL=$RUNNER_TEMP/.gitconfig" >> "$GITHUB_ENV"
+          echo "COMPOSER_HOME=$RUNNER_TEMP/composer-home" >> "$GITHUB_ENV"
+
       - name: Get OS
         id: os
         run: |
