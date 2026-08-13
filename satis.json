@@ -21,7 +21,8 @@
     { "type": "vcs", "url": "https://github.com/yourparkingspace/hash-model-ids.git" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-mutex-migrations.git" },
     { "type": "vcs", "url": "https://github.com/yourparkingspace/streaming-json-encoder" },
-    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-aws-pubsub" }
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-aws-pubsub" },
+    { "type": "vcs", "url": "https://github.com/yourparkingspace/laravel-otel" }
   ],
   "require-all": true
 }
